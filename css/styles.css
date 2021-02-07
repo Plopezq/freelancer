@@ -1,23 +1,26 @@
-/* Utilizar este codigo en todos los css */
+/* Paleta de colores */
+:root{
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: rgba(255,193,7,1);
+    --secundario: #0097A7;
+    --gris: #757575;
+
+}
+
 html{
     font-size: 62.5%;
 }
 body{
     font-size:  16px; /* 1 rem = 10px */
+    font-family: 'Krub', sans-serif;
 }
-titulo {
+.titulo {
     text-align: center;
     font-size: 3.8rem;
-}
-
-h1.titulo span{
-    font-size: 2rem;
-    color: blue
+    font-weight: 400;
 }
 .titulo span{
     font-size: 2rem;
-    color: red
-}
-span{
-    color: green
+ 
 }
