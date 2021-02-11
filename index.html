@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>    
-        <h1 class="titulo" >Pablo Lopez Martin 
+        <h1 class="titulo" >Pablo López Martín 
             <span>Freelancer</span></h1>
     </header>
     <!-- COMENTARIO -->
@@ -101,28 +101,30 @@
             <fieldset>
                 <legend>Contactame rellenando todos los campos</legend>
 
-                <div>
-                    <label>Nombre</label>
-                    <input type= "text" placeholder="Tu nombre">
-                </div>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type= "text" placeholder="Tu nombre">
+                    </div>
 
-                <div> 
-                    <label>Telefono</label>
-                    <input type="text" placeholder="Tu telefono">
-                </div>
-               
-                <div>
-                    <label >Correo</label>
-                    <input type="Email" placeholder="Tu email">
-                </div>
+                    <div class="campo"> 
+                        <label>Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu telefono">
+                    </div>
                 
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                </div>
+                    <div class="campo">
+                        <label >Correo</label>
+                        <input class="input-text" type="Email" placeholder="Tu email">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!-- .contenedor.campos -->
                 
-                <div>
-                    <input type="submit" value = "Enviar">
+                <div class="alinear-derecha flex">
+                    <input class= "boton w-sm-100" type="submit" value = "Enviar">
                 </div>
             </fieldset>
         </form>
@@ -131,8 +133,8 @@
 </main>
    
 
-    <footer>    
-        <p>Todos los derechos reservados. Pablo Lopez Freelancer</p>
+    <footer class="footer">    
+        <p>Todos los derechos reservados. Pablo López Martín Freelancer</p>
     </footer>
 </body>
 </html>
